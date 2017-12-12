@@ -1,0 +1,4 @@
+\ProvidesFile{t1coalition.fd}
+\DeclareFontFamily{T1}{coalition}{}
+\DeclareFontShape{T1}{coalition}{m}{n}{ <-> virtcoalition}{}
+\pdfmapline{+coalition\space <coalition.ttf\space <T1-WGL4.enc}

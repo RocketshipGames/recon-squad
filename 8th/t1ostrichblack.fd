@@ -1,0 +1,4 @@
+\ProvidesFile{t1ostrichblack.fd}
+\DeclareFontFamily{T1}{ostrichblack}{}
+\DeclareFontShape{T1}{ostrichblack}{m}{n}{ <-> virtostrichblack}{}
+\pdfmapline{+ostrichblack\space <ostrichblack.ttf\space <T1-WGL4.enc}
